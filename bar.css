@@ -1,0 +1,79 @@
+.bar {
+  height: 15px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  background-color: #16203372;
+  display: flex;
+  justify-content: start;
+}
+.bar2 {
+  height: 100%;
+  width: 0;
+  font-size: 12px;
+  padding-left: 7px;
+  background: linear-gradient(180deg, red, #833ab4, yellow);
+  animation: progress 2s linear forwards;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.bar3 {
+  animation: progress-3 2s linear forwards;
+}
+@keyframes progress-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.bar4 {
+  animation: progress-4 2s linear forwards;
+}
+@keyframes progress-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.bar5 {
+  animation: progress-5 2s linear forwards;
+}
+@keyframes progress-5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+.bar6 {
+  animation: progress-6 2s linear forwards;
+}
+@keyframes progress-6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.bar7 {
+  animation: progress-7 2s linear forwards;
+}
+@keyframes progress-7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
